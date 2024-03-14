@@ -29,7 +29,7 @@ existing_data = existing_data.dropna(how="all")
 df = pd.DataFrame(existing_data)
 #creating a pandas dataframe with just the "genres" column
 col_data = df["genres"]
-st.dataframe(df) 
+#st.dataframe(df) 
 #list of genres
 genre_options = [
     "Pop",
